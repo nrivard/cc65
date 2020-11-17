@@ -7,11 +7,6 @@
 		<key>ca65.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-		<key>common65.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 		<key>ld65.xcscheme_^#shared#^_</key>
@@ -23,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>673D7A2E2562DED6001728AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>673D7AB72562EAAF001728AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
