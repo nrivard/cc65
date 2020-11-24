@@ -399,6 +399,7 @@
 		673D7BC82562F3AB001728AB /* expr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = expr.c; path = ../../src/ld65/expr.c; sourceTree = "<group>"; };
 		673D7BC92562F3AB001728AB /* objfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objfile.h; path = ../../src/ld65/objfile.h; sourceTree = "<group>"; };
 		673D7BCA2562F3AB001728AB /* o65.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = o65.h; path = ../../src/ld65/o65.h; sourceTree = "<group>"; };
+		67C2D95E256D2E4400E19426 /* CommandlineTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CommandlineTool.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -431,6 +432,7 @@
 		673D7A262562DED5001728AB = {
 			isa = PBXGroup;
 			children = (
+				67C2D95E256D2E4400E19426 /* CommandlineTool.entitlements */,
 				673D7ABE2562EAB7001728AB /* common */,
 				673D7A312562DED6001728AB /* ca65 */,
 				673D7B7A2562F382001728AB /* ld65 */,
@@ -1083,20 +1085,22 @@
 		673D7A372562DED6001728AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZL7L5KH6AL;
+				CODE_SIGN_ENTITLEMENTS = CommandlineTool.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		673D7A382562DED6001728AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZL7L5KH6AL;
+				CODE_SIGN_ENTITLEMENTS = CommandlineTool.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -1125,20 +1129,24 @@
 		673D7B7E2562F382001728AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZL7L5KH6AL;
+				CODE_SIGN_ENTITLEMENTS = CommandlineTool.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		673D7B7F2562F382001728AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZL7L5KH6AL;
+				CODE_SIGN_ENTITLEMENTS = CommandlineTool.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
